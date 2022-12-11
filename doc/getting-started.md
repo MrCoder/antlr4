@@ -7,7 +7,7 @@ Hi and welcome to the version 4 release of ANTLR! See [Why do we need ANTLR v4?]
 To play around with ANTLR without having to worry about installing it and the Java needed to execute it, use [antlr4-tools](https://github.com/antlr/antlr4-tools). The only requirement is Python3, which is typically installed on all developer machines on all operating systems. (See below for Windows issue.)
 
 ```bash
-$ pip install antlr4-tools
+$ python3 -m pip install antlr4-tools
 ```
 
 That command creates `antlr4` and `antlr4-parse` executables that, if necessary, will download and install Java 11 plus the latest ANTLR jar:
